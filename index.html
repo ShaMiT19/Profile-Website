@@ -46,7 +46,6 @@
     <header id="header">
         <div class="container">
 
-            <img src="assets/img/me-hero.jpg" alt="Shamit Savant" class="hero-photo">
             <h1><a href="index.html">Shamit Savant</a></h1>
             <h2>I'm a <span class="animate"></span></h2>
 
@@ -126,7 +125,7 @@
         <div class="section-title">
             <h2>Resume</h2>
             <p>Check My Resume</p>
-            <a href="assets/ShamitSavant_Resume.pdf" class="btn btn-outline-light mt-3" download target="_blank" rel="noopener noreferrer" style="border-color:#00B4D8; color:#00B4D8; padding: 8px 24px; border-radius: 4px; font-size: 14px; letter-spacing: 1px;">
+            <a href="assets/ShamitSavant_Resume.pdf" class="btn btn-outline-light mt-3" download target="_blank" rel="noopener noreferrer" style="border-color:#18d26e; color:#18d26e; padding: 8px 24px; border-radius: 4px; font-size: 14px; letter-spacing: 1px;">
                 <i class="bi bi-download me-2"></i> Download Resume
             </a>
         </div>
@@ -264,12 +263,12 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app portfolio-featured">
                     <div class="portfolio-wrap">
                         <span class="featured-badge">arXiv 2026</span>
-                        <img src="assets/img/portfolio/Handwritten.png" class="img-fluid" alt="Prostate MRI Super-Resolution">
+                        <img src="assets/img/prostate.png" class="img-fluid" alt="Prostate MRI Super-Resolution">
                         <div class="portfolio-info">
                             <h4>Prostate MRI Super-Resolution</h4>
                             <p>Deep learning benchmarking across 5 architectures on 46K MRI slices for through-plane resolution enhancement</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/Handwritten.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Prostate MRI Through-Plane Resolution Enhancement via Deep Learning — Benchmarked 5 deep learning architectures (CNN, U-Net, GAN, Attention-GAN, Diffusion) on 46K prostate MRI slices from TCIA (58 patients). Best model achieved 30.08 dB PSNR and 0.898 SSIM, 10.1% above the linear interpolation baseline. Key finding: problem formulation had greater impact on performance than architecture choice."><i class="bx bx-plus"></i></a>
+                                <a href="assets/img/prostate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Prostate MRI Through-Plane Resolution Enhancement via Deep Learning — Benchmarked 5 deep learning architectures (CNN, U-Net, GAN, Attention-GAN, Diffusion) on 46K prostate MRI slices from TCIA (58 patients). Best model achieved 30.08 dB PSNR and 0.898 SSIM, 10.1% above the linear interpolation baseline. Key finding: problem formulation had greater impact on performance than architecture choice."><i class="bx bx-plus"></i></a>
                                 <a href="https://github.com/ShaMiT19" class="github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
@@ -279,12 +278,12 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app portfolio-featured">
                     <div class="portfolio-wrap">
                         <span class="featured-badge">Deep Learning</span>
-                        <img src="assets/img/portfolio/Gem5.png" class="img-fluid" alt="Multimodal Vision-Language Model">
+                        <img src="assets/img/multimodal-vlm.png" class="img-fluid" alt="Multimodal Vision-Language Model">
                         <div class="portfolio-info">
                             <h4>Multimodal Vision-Language Model</h4>
                             <p>Dual-stream Transformer with rotary embeddings — 18% alignment gain over CLIP baseline, 38GB → 26GB GPU memory reduction</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/Gem5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Multimodal Vision-Language Model — Improved image-text alignment by ~18% over a CLIP-ViT-B/32 baseline by designing a dual-stream Transformer encoder + causal decoder with rotary positional embeddings and patch-based image tokenization. Reduced hallucination rate from 23% to 14% on a 1,000-sample human eval. Reduced peak GPU memory from 38GB to 26GB via gradient checkpointing, bf16 mixed-precision training, and fused attention kernels."><i class="bx bx-plus"></i></a>
+                                <a href="assets/img/multimodal-vlm.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Multimodal Vision-Language Model — Improved image-text alignment by ~18% over a CLIP-ViT-B/32 baseline by designing a dual-stream Transformer encoder + causal decoder with rotary positional embeddings and patch-based image tokenization. Reduced hallucination rate from 23% to 14% on a 1,000-sample human eval. Reduced peak GPU memory from 38GB to 26GB via gradient checkpointing, bf16 mixed-precision training, and fused attention kernels."><i class="bx bx-plus"></i></a>
                                 <a href="https://github.com/ShaMiT19" class="github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
@@ -294,12 +293,12 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app portfolio-featured">
                     <div class="portfolio-wrap">
                         <span class="featured-badge">LLM / RAG</span>
-                        <img src="assets/img/portfolio/diamond.jpg" class="img-fluid" alt="GPT-4 Vision Multimodal RAG Pipeline">
+                        <img src="assets/img/multimodal-RAG.png" class="img-fluid" alt="GPT-4 Vision Multimodal RAG Pipeline">
                         <div class="portfolio-info">
                             <h4>GPT-4 Vision Multimodal RAG Pipeline</h4>
                             <p>Hybrid retrieval system with 25% relevance gain over BM25 — 90%+ QA accuracy, query latency cut from ~1.5s to under 800ms</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/diamond.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="GPT-4 Vision Multimodal RAG Pipeline — Improved document retrieval relevance by ~25% over a text-only BM25 baseline by designing a hybrid retrieval system (dense vector search + keyword ranking) using ChromaDB with parallel text/table/image processing, achieving 90%+ QA accuracy on a 300-question held-out benchmark. Reduced end-to-end query latency from ~1.5s to under 800ms through optimized chunking strategies and efficient approximate nearest-neighbor indexing."><i class="bx bx-plus"></i></a>
+                                <a href="assets/img/multimodal-RAG.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="GPT-4 Vision Multimodal RAG Pipeline — Improved document retrieval relevance by ~25% over a text-only BM25 baseline by designing a hybrid retrieval system (dense vector search + keyword ranking) using ChromaDB with parallel text/table/image processing, achieving 90%+ QA accuracy on a 300-question held-out benchmark. Reduced end-to-end query latency from ~1.5s to under 800ms through optimized chunking strategies and efficient approximate nearest-neighbor indexing."><i class="bx bx-plus"></i></a>
                                 <a href="https://github.com/ShaMiT19" class="github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
