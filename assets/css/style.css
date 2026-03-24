@@ -356,11 +356,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(4, 4, 4, 0.82);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(24, 210, 110, 0.08);
-  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.9);
   padding: 30px;
 }
 
