@@ -14,8 +14,8 @@
         <h2>Contact Information</h2>
         <p>
             <strong>📍Location:</strong> Gainesville, Florida 32608<br>
-            <strong>📧Email:</strong> shamitsavant1919@gmail.com<br>
-<!--             <strong>📱Phone:</strong> +91 7506759433 -->
+            <strong>📧Email:</strong> savantshamit@gmail.com<br>
+<!--          
         </p>
     </section>
 <!--     <section>
