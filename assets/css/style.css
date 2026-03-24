@@ -404,10 +404,11 @@ section .container {
 # About
 --------------------------------------------------------------*/
 .about-photo {
+  width: 100%;
   height: 300px;
-  width: auto;
+  object-fit: cover;
+  object-position: center 22%;
   display: block;
-  margin: 0 auto;
 }
 
 .about-me .content h3 {
