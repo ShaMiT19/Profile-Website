@@ -1,47 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+# Shamit Savant — Personal Portfolio
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+**Live site:** [shamit19.github.io/Profile-Website](https://shamit19.github.io/Profile-Website/)
 
-<body>
-    <header>
-        <h1>Shamit Savant - Profile Website</h1>
-    </header>
-    <section>
-        <h2>Contact Information</h2>
-        <p>
-            <strong>📍Location:</strong> Gainesville, Florida 32608<br>
-            <strong>📧Email:</strong> savantshamit@gmail.com<br>
-<!--          
-        </p>
-    </section>
-<!--     <section>
-        <h2>Education</h2>
-        <h3>Veermata Jijabai Technological Institute (VJTI)</h3>
-        <p>
-            Bachelor of Technology in Electrical Engineering<br>
-            May 2022<br>
-            Secured Distinction (CGPA 8.99/10)
-        </p>
-        <h3>G.E.I.S, M.H. High School and Junior</h3>
-        <p>
-            Higher Secondary Certificate Examination<br>
-            July 2018<br>
-            Secured Distinction (87.54%)
-        </p>
-        <h3>New Horizon Public School</h3>
-        <p>
-            Secondary Certificate Examination<br>
-            July 2016<br>
-            Secured Distinction (97.2%, GPA – 10/10)
-        </p>
-    </section> -->
-    <!-- Add more sections for Projects, Research Internship, Professional Experience, Technical Skills, etc. -->
-    <footer>
-        <p>For a more detailed overview, visit other sections of my profile. Feel free to connect for collaborations, projects, or inquiries!</p>
-    </footer>
-</body>
-</html>
+Personal portfolio website for Shamit Savant — ML Engineer and M.S. ECE graduate student at the University of Florida.
+
+---
+
+## About
+
+Single-page portfolio built with HTML, CSS, and JavaScript. Covers experience, research, and projects across ML engineering, deep learning, LLMs, and computer vision.
+
+**Sections:**
+- **Home** — Hero with photo and animated role titles
+- **About** — Bio, current role, and background
+- **Resume** — Education, experience, skills, and publications
+- **Projects** — 12 projects with featured highlights
+- **Contact** — Email, phone, and social links
+
+---
+
+## Tech Stack
+
+- HTML5 / CSS3 / JavaScript
+- Bootstrap 5
+- [Typed.js](https://github.com/mattboldt/typed.js/) — animated text in hero
+- [GLightbox](https://github.com/biati-digital/glightbox) — project lightbox previews
+- [AOS](https://michaelorenstein.com/aos/) — scroll animations
+- Google Fonts — Inter, Poppins
+- Bootstrap Icons / Remix Icons / Font Awesome
+
+---
+
+## Running Locally
+
+No build step required. Just open `index.html` in a browser, or serve it locally:
+
+```bash
+# Python
+python -m http.server 8000
+
+# Node
+npx serve .
+```
+
+Then visit `http://localhost:8000`.
+
+---
+
+## Contact
+
+- Email: savantshamit@gmail.com
+- LinkedIn: [linkedin.com/in/shamit-savant](https://www.linkedin.com/in/shamit-savant/)
+- GitHub: [github.com/ShaMiT19](https://github.com/ShaMiT19)
